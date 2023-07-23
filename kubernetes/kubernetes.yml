@@ -204,8 +204,8 @@ spec:
                 fieldRef:
                   fieldPath: metadata.namespace
             - name: OPERATOR_KEYCLOAK_IMAGE
-              value: quay.io/keycloak/keycloak:18.0.2
-          image: quay.io/keycloak/keycloak-operator:18.0.2
+              value: quay.io/keycloak/keycloak:22.0.1
+          image: quay.io/keycloak/keycloak-operator:22.0.1
           imagePullPolicy: Always
           livenessProbe:
             failureThreshold: 3
